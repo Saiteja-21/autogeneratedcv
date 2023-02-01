@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <main>
+        <div class="left">
+            <form>
+                <!-- Name , Email , Phone , Github , Linkedin -->
+                <label for="fname">Name:</label>
+                <input type="text" id="fname" name="name" placeholder="name"><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Email"><br>
+                <label for="phone">Name:</label>
+                <input type="text" id="phone" name="phone" placeholder="phone"><br>
+                <label for="github">Name:</label>
+                <input type="url" id="github" name="github" placeholder="Github"><br>
+                <label for="linkedin">Name:</label>
+                <input type="url" id="linkedin" name="linkedin" placeholder="Linkedin">
+                <fieldset>
+                    <legend>Education</legend>
+                    <label for="degree">Degree:</label>
+                    <input type="text" id="degree" name="degree" placeholder="Degree"><br>
+                    <label for="college">College:</label>
+                    <input type="text" id="college" name="college" placeholder="College"><br>
+                    <label for="startingyear">Starting year:</label>
+                    <input type="number" id="startingyear" name="startingyear" placeholder="Startingyear"><br>
+                    <label for="passingyear">passing year:</label>
+                    <input type="number" id="passingyear" name="passingyear" placeholder="Passingyear"><br>
+                    <label for="cgpa">Cgpa:</label>
+                    <input type="number" id="cgpa" name="cgpa" placeholder="CGPA"><br>
+                    
+                    <!-- Degree , College , Starting Year , Passing Year , CGPA -->
+                </fieldset>
+                <fieldset>
+                    <legend>Skills</legend>
+                    <label for="skills">skills:</label>
+                    <textarea id="skills" name="skills" cols="15" rows="8" placeholder="skills ex:html,css"></textarea>
+                    <!-- skills -->
+                </fieldset>
+                <fieldset>
+                    <legend>Projects</legend>
+                    <label for="project">Project:</label>
+                    <input type="text" id="project" name="project" placeholder="project"><br>
+                    <label for="description">Description:</label>
+                    <textarea id="description" name="description"  rows="8" cols="15" placeholder="write in html format"></textarea><br>
+                    <label for="link">Link:</label>
+                    <input type="url" id="link" name="link" placeholder="link">
+
+                                        <!-- Project , Description , Link -->
+                </fieldset>
+                <fieldset>
+                    <legend>Experience</legend>
+                    <label for="company">company:</label>                
+                    <input type="text" id="company" name="company" placeholder="company"><br>
+                    <label for="Designation">Designation:</label>                
+                    <input type="text" id="Designation" name="Designation" placeholder="Designation"><br>
+                    <label for="Duration">Duration:</label>                
+                    <input type="text" id="Duration" name="Duration" placeholder="Duration"><br>
+                    <label for="description">Description:</label>
+                    <textarea id="description" name="description" rows="8" cols="15"  placeholder="write in html format"></textarea> 
+
+                    
+                    
+
+                    <!-- Company , Designation , Duration , Description -->
+                </fieldset>
+                <button type="submit" class="btn">submit</button>
+                <button type="reset" class="btn">reset</button>
+                <button class="btn" onclick="handleLeft()"><<s</button>
+            </form>
+        </div>
+        <div class="right">
+            <div class="block1">
+                <!-- Name -->
+                <!--Email , Phone , Github , Linkedin  -->
+            </div>
+            <div class="block2">
+                <h2>Education</h2>
+            </div>
+            <div class="block3">
+            </div>
+            <div class="block4">
+                <h2>Project</h2>
+            </div>
+            <div class="block5">
+                <h2>Experience</h2>
+            </div>
+            <button class="btn print" onclick="handlePrint()">Print</button>
+        </div>
+    </main>
+
+    <script src="./app.js"></script>
+</body>
+</html>
