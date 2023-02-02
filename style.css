@@ -82,3 +82,26 @@ main>.right>.block1{
 .print{
     display: none;
 }
+
+label{
+    display: inline-block;
+    width:98px;
+}
+input{
+    border-radius: 5px;
+    border-top-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+    border-right-style: hidden;
+    height:28px;
+    width: 200px;
+    
+}
+textarea{
+    border-top-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+    border-right-style: hidden;
+    vertical-align: middle;
+    border-radius: 6px;
+}
