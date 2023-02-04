@@ -76,13 +76,21 @@ function handleSubmit(e) {
 
 function handleLeft() {
   const left = document.querySelector(".left");
+  left.style.display="none";
   const right = document.querySelector(".right");
+  right.style.width="1300px";
   const print = document.querySelector(".print");
+  print.style.display="block";
+  
+  
   // write more codes here
 }
 function handlePrint() {
   const right = document.querySelector(".right");
+  right.style.width="";
   const left = document.querySelector(".left");
+  left.style.display="block";
   const print = document.querySelector(".print");
+  print.style.display="none";
   // write more codes here
 }
