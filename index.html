@@ -48,8 +48,8 @@
                     <legend>Projects</legend>
                     <label for="project">Project:</label>
                     <input type="text" id="project" name="project" placeholder="project"><br><br>
-                    <label for="description">Description:</label>
-                    <textarea id="description" name="description"  rows="4" cols="25" placeholder="write in html format"></textarea><br><br>
+                    <label for="p_description">Description:</label>
+                    <textarea id="p_description" name="description"  rows="4" cols="25" placeholder="write in html format"></textarea><br><br>
                     <label for="link">Link:</label>
                     <input type="url" id="link" name="link" placeholder="link">
 
@@ -63,8 +63,8 @@
                     <input type="text" id="Designation" name="Designation" placeholder="Designation"><br><br>
                     <label for="Duration">Duration:</label>                
                     <input type="text" id="Duration" name="Duration" placeholder="Duration"><br><br>
-                    <label for="description">Description:</label>
-                    <textarea id="description" name="description" rows="4" cols="25"  placeholder="write in html format"></textarea> 
+                    <label for="e_description">Description:</label>
+                    <textarea id="e_description" name="description" rows="4" cols="25"  placeholder="write in html format"></textarea> 
 
                     
                     
@@ -78,19 +78,48 @@
         </div>
         <div class="right">
             <div class="block1">
+                <h2 id="name_resume"></h2>
+                <nav>
+                <a  id="email_resume" href="email"></a> |
+                <a  id="phone_resume" href="phone"></a> |
+                <a  id="github_resume" href="github"></a> |
+                <a  id="linkedin_resume" href="linkedin"></a>
+                </nav>
+
                 <!-- Name -->
                 <!--Email , Phone , Github , Linkedin  -->
             </div>
             <div class="block2">
-                <h2>Education</h2>
+                <h2 class="right_headings">Education</h2>
+
+                <hr class="abc"><hr/>
+                <h2 id="college_name"></h2>
+                <h4 id="degree_resume"></h4>
+                <p  id="startingyear_resume"></p>
+                <p id="passingyear_resume" >- </p>
+                <p id="cgpa_resume">CGPA:</p>
             </div>
             <div class="block3">
+                <h2 class="right_headings">Skills</h2>
+                <hr class="abc"><hr/>
+                <h2 id="skills_resume"></h2>
             </div>
             <div class="block4">
-                <h2>Project</h2>
+                <h2 class="right_headings">Project</h2>
+                <hr class="abc"><hr/>
+                <h2 id="project_resume"></h2>
+                <br>
+                <p id="projectdescription_resume"></p>
+                
+                <a id="link_resume" href="">Link-</a>
             </div>
             <div class="block5">
-                <h2>Experience</h2>
+                <h2 class="right_headings">Experience</h2>
+                <hr class="abc"><hr/>
+                <h2 id="designation_resume"></h2>
+                <h3 id="company_resume"></h3>
+                <h4 id="duration_resume"></h4>
+                <p id="experiencedescription_resume"></p>
             </div>
             <button class="btn print" onclick="handlePrint()">Print</button>
         </div>

@@ -73,8 +73,8 @@ main>.right{
 }
 main>.right>.block1{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content:center;
+    align-items:center;
     flex-direction: column;
     color: gray;
     width: 60vw;
@@ -86,6 +86,7 @@ main>.right>.block1{
 label{
     display: inline-block;
     width:98px;
+    
 }
 input{
     border-radius: 5px;
@@ -105,3 +106,45 @@ textarea{
     vertical-align: middle;
     border-radius: 6px;
 }
+.block2{
+    padding-right: 5rem;
+}
+.right_headings{
+    color: gray;
+    display:block;
+    
+    
+}
+.block3{
+    padding-right: 5rem;
+}
+.block4{
+    padding-right: 5rem;
+}
+.block5{
+    padding-right: 5rem;
+}
+a{
+    display: inline-block;
+}
+.abc{
+    width:900px;
+}
+#startingyear_resume{
+    display:inline-block;
+    font-size: small;
+}
+#passingyear_resume{
+    display:inline-block;
+    font-size: small;
+}
+#company_resume{
+    color:grey;
+}
+#duration_resume{
+    color:grey;
+}
+#cgpa_resume{
+    font-size:small ;
+}
+
